@@ -4,6 +4,7 @@
 function verse1() {
     let output = ''
     // your code here
+    output = '<P>This is verse one</p>'
 
     return output
 }
@@ -11,21 +12,21 @@ function verse1() {
 function verse2() {
     let output = ''
     // your code here
-
+    output = '<P>This is verse two</p>'
     return output
 }
 
 function chorus1() {
     let output = ''
     // your code here
-
+    output = '<P>This is chorus 1</p>'
     return output
 }
 
 function chorus2() {
     let output = ''
     // your code here
-
+    output = '<P>This is chorus 2</p>'
     return output
 }
 
@@ -34,6 +35,8 @@ function chorus2() {
 function main() {
     let finalOutput = '' // used to build lyrics string
     // call verse and chorus functions
+    finalOutput = verse1() + verse2() + chorus1() + chorus2()
+
     // each verse/chorus should return text including HTML paragraph tags
 
     // do not modify the statement below
